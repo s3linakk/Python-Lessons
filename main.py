@@ -1,5 +1,7 @@
-print("how old are you?")
-age=int(input())
-print("what is your name?")
-name=str(input())
-print("my name is",name,"I am",age,"years old")
+age=int(input("how old are you? \n"))
+if age>=12 and age<101:
+    print("ok")
+elif age==200:
+    print("cool, you're not that old tho")
+else:
+    print("wrong age")
