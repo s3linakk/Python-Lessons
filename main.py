@@ -1,7 +1,21 @@
-age=int(input("how old are you? \n"))
-if age>=12 and age<101:
-    print("ok")
-elif age==200:
-    print("cool, you're not that old tho")
+a=float(input())
+op=str(input())
+b=float(input())
+if op=="+":
+    print(a+b)
+elif op=="-":
+    print(a-b)
+elif op=="*":
+    print(a*b)
+elif op=="//":
+    if b==0:
+        print("ERROR((( MAYBE YOU SHOULD CHECK YOUR WORKK?")
+    else:
+        print(a//b)
+elif op=="/":
+    if b==0:
+        print("ERROR((( MAYBE YOU SHOULD CHECK YOUR WORKK?")
+    else:
+        print(a/b)
 else:
-    print("wrong age")
+    print("WRONG OPERATION")
